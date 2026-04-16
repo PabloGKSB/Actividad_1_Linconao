@@ -1,0 +1,17 @@
+# Archivos binarios y encriptados grandes
+*.bin
+*.enc
+
+# Archivos CSV grandes generados durante las pruebas
+info_clav_*.csv
+par_cbc_dec.csv
+seq_cbc_dec.csv
+test_val_dec.csv
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos comprimidos no necesarios
+*.zip
